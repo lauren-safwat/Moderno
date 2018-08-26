@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Moderno</title>
+    <link rel="icon" type="image/png" href="Img/logo.png">
+    <link rel="stylesheet" href="CSS/style4.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+<body>
+    <div class="div1">
+        <img src="Img/logo.png" alt="Logo" class="logo">
+        <img src="Img/menu.png" alt="Menu" class="menu">
+        <h1 class="h1">MODERNO</h1>
+        <p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <a href="#div4"><button class="b1">Get In Touch</button></a>
+    </div>
+    <div class="div2">
+        <div class="div">
+            <img src="Img/vip.png" alt="icon" class="icon">
+            <h2 class="h2">We Are Creative</h2>
+            <p class="p2">Lorem ipsum dolor sit amet, consectetur<br>adipiscing elit, sed do eiusmod tempor incididunt<br>ut labore et dolore magna aliqua. Ut enim ad minim<br>veniam, quis nostrud exercitation ullamco.</p>
+        </div>
+        <div class="div">
+            <img src="Img/settings.png" alt="icon" class="icon">
+            <h2 class="h2">We Have Skills</h2>
+            <p class="p2">Lorem ipsum dolor sit amet, consectetur<br>adipisicing elit, sed do eiusmod tempor incididunt<br>ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="div">
+            <img src="Img/lifebuoy.png" alt="icon" class="icon">
+            <h2 class="h2">We Love To Help</h2>
+            <p class="p2">Lorem ipsum dolor sit amet, consectetur<br>adipiscing elit, sed do eiusmod tempor incididunt<br>ut labore et dolore magna aliqua. Ut enim ad minim<br>veniam.</p>
+        </div>
+    </div>
+    
+    <div class="div3">
+        <h1 class="SS">Success Stories</h1>
+        <p class="p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+        <br><br><br>
+        <img src="Img/Strawberry.jpg" alt="Strawberry" class="Strawberry">
+        <img src="Img/Strawberry.jpg" alt="Strawberry" class="Strawberry">
+        <img src="Img/Strawberry.jpg" alt="Strawberry" class="Strawberry">
+        <img src="Img/Strawberry.jpg" alt="Strawberry" class="Strawberry">
+        <img src="Img/Strawberry.jpg" alt="Strawberry" class="Strawberry">
+        <img src="Img/Strawberry.jpg" alt="Strawberry" class="Strawberry">
+    </div>
+    
+    <div id="div4">
+        <h1 class="SS">Get In Touch</h1>
+        <p class="p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+        <br><br>
+        <div class="map"> 
+            <script>
+                function initMap(){
+                     var uluru = {lat: -25.363, lng: 131.044};
+
+
+                    var map= new google.maps.Map(document.getElementById("map"),{
+                         zoom: 4,
+                  center: uluru
+                         };
+
+                          var Marker = new google.maps.Marker ({
+                  position: uluru,
+                  map: map});                         
+                }
+            </script>
+            
+            <section id="map">
+                <iframe width="100%" height="500px" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ6TZcw3aJNhQRRMTEJQmgRSw&key=AIzaSyDRLEiUHxUeshwr4yjjTOUny5Bl8_D_YZg" allowfullscreen></iframe>    
+            </section>
+        </div>
+    </div>
+    
+    <div class="div5">
+       
+        <div class="feedback">
+            <form method="post">
+                <input type="text" placeholder="Your Name" name="name" class="f" id="f1">
+                <input type="email" placeholder="Your Email" name="email" class="f" id="f1"><br>
+                <input type="text" placeholder="Type Message Here..." name="type" class="f" id="f2"><br>
+                <textarea placeholder="Message" name="Message" class="f" id="f3"></textarea><br>
+                <button class="send">SEND</button>
+            </form>
+        </div>
+        
+        <div class="aboutus">
+            <h2 class="h3">Our Address</h2>
+            <p class="p2">4896 Desert Broom Court<br>Newark, NJ 07102<br>United States</p>
+            <br><br>
+            <h2 class="h3">Email</h2>
+            <p class="p2">mail@mail.com</p>
+            <br><br>
+            <h2 class="h3">Phone</h2>
+            <p class="p2">+00 123-456-78900</p>
+        </div>
+        
+    </div>
+    
+    <footer class="footer">
+        <p class="p3">&copy; 2015 Template by <span style="color: #EF4D4D">GraphBerry</span></p>
+        
+        <ul>
+            <li><a class="f_icon" href="https://m.facebook.com"><img src="Img/facebook-black-social-button-circle.png" alt="Facebook"></a></li>
+            <li><a class="f_icon" href="https://twitter.com/"><img src="Img/Twitter-Bird-32.png" alt="Twitter"></a></li>
+            <li><a class="f_icon" href=""><img src="Img/beach-ball.png" alt="icon" id="icon"></a></li>
+            <li><a class="f_icon" href="https://www.behance.net/"><img src="Img/behance-logo-button.png" alt="Behance"></a></li>
+            <li><a class="f_icon" href="https://www.pinterest.com/"><img src="Img/pinterest.png" alt="Pinterest"></a></li>
+        </ul>
+    </footer>
+</body>
+</html>
